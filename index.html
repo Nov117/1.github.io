@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="shortcut icon" type="image/jpg" href="https://cdn.discordapp.com/attachments/824664451419996230/834273566618943559/unknown.png"/> <!--favicon/site icon-->
+        <title>nxxh.site</title>
+        <script>
+            //========== BUTTONS ==========
+             function Discord() {
+                window.open('https://discord.gg/HTT2Dcw5GR')
+            }
+
+            function Twitter() {
+                window.open('https://twitter.com/joebob87782830')
+            }
+
+            function Website() {
+                window.open('https://nxxh447.github.io/')
+            }
+
+            function Github() {
+                window.open('https://github.com/nxxh447')
+            }
+            //============================
+
+            function ctt() {
+                /* Get the text field */
+                var copyText = document.getElementById("b5");
+                  /* Select the text field */
+                  copyText.select();
+                  document.execCommand("copy");
+                }
+
+        </script>
+    </head>
+    <body>
+        <header class="header">
+            <div id="defg"></div>
+            <div class="nav__bar">
+                <div class="nav_bar_img">
+                    <img id="headimg" src="https://media.discordapp.net/attachments/823305288072429638/831305601061224468/wedrf.PNG">
+                </div>
+                <div class="nav_bar_child">
+                    <button class="hb" type="button" id="Discord_b" onclick="Discord()">Discord</button>
+                    <button class="hb type="button" id="Twitter_b" onclick="Twitter()">Twitter</button>
+                    <button class="hb" type="button" id="Github_b" onclick="Github()">Github</button>
+                    <button class="hb" type="button" id="Website_b" onclick="Website()">Website</button>
+                </div>
+                <div class="titles">
+                    <div class="title">
+                        <a id="t1">nxxh.site</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="main__content">
+                <a>filler content</a>
+                <a id="b5" onclick="ctt()">test</a>
+            </div>
+        </div>
+        <footer class="footer" style="position:fixed;bottom:0px;left:2px;color:var(--mcol);">
+            <div class="ver_info">
+                <p id="vinf" style="color: var(--mcol);">v0.3.1</p>
+            </div>
+        </footer>
+    </body>
+</html>
